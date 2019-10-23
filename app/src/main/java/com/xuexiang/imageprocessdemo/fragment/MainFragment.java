@@ -30,7 +30,7 @@ import com.xuexiang.xutil.common.ClickUtils;
  * @author xuexiang
  * @since 2018/11/7 下午1:16
  */
-@Page(name = "模版程序\n写Demo真方便", anim = CoreAnim.none)
+@Page(name = "OpenCV native处理", anim = CoreAnim.none)
 public class MainFragment extends XPageContainerListFragment {
 
     @Override

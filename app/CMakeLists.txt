@@ -24,7 +24,6 @@ set_target_properties(lib_opencv
 # TODO 设置生成的so动态库最后输出的路径
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/jniLibs/${ANDROID_ABI})
 
-# TODO 添加自己写的 C/C++源文件
 add_library( # Sets the name of the library.
         imageprocess-lib
         # Sets the library as a shared library.
@@ -32,15 +31,11 @@ add_library( # Sets the name of the library.
         # Provides a relative path to your source file(s).
         src/main/cpp/imageprocess-lib)
 
-# TODO 依赖 NDK中的库
-
 find_library( # Sets the name of the path variable.
         log-lib
         # Specifies the name of the NDK library that
         # you want CMake to locate.
         log)
-
-# TODO 将目标库与 NDK中的库进行连接
 
 target_link_libraries( # Specifies the target library.
         imageprocess-lib
