@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 # TODO 设置OpenCv的路径变量
-set(OPENCV_ANDROID_SDK /Users/XUE/Documents/hhw/OpenCV-android-sdk)
+set(OPENCV_ANDROID_SDK /Users/xuexiang/Documents/OpenCV-android-sdk)
 #配置加载native依赖
 include_directories(${OPENCV_ANDROID_SDK}/sdk/native/jni/include)
 
